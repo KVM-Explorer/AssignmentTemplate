@@ -24,15 +24,23 @@
 
 = Basic
 
-#lorem(50)
+#lorem(10)
 
 - Blod *Blod*
 - italics _Text_
 - block `block`
 
+= image
+
+#lorem(10) #ref(<image_demo>)
+
+#figure(
+  image("images/smallpt.png",height: 200pt),
+  caption: "image demo"
+)<image_demo>
 
 = code block
-#lorem(100) #ref(<code_block>)
+#lorem(10) #ref(<code_block>)
 
 #figure(
 ```cpp
