@@ -32,7 +32,7 @@
 
 = image
 
-#lorem(10) #ref(<image_demo>)
+#lorem(10) @image_demo
 
 #figure(
   image("images/smallpt.png",height: 200pt),
@@ -40,7 +40,7 @@
 )<image_demo>
 
 = code block
-#lorem(10) #ref(<code_block>)
+#lorem(10) @code_block
 
 #figure(
 ```cpp
@@ -51,7 +51,7 @@ caption: "code_block"
 
 = table
 
-#lorem(10) #ref(<table_demo>)
+#lorem(10) @table_demo
 
 #figure(
   table(
